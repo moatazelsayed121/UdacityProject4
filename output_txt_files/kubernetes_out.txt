@@ -1,0 +1,20 @@
+deployment.apps/projectudacity created
+NAME                                  READY   STATUS              RESTARTS   AGE
+curl-98786465d-lwkzb                  0/1     ImagePullBackOff    0          58m
+kubernetes-project-77d96b4bc5-hpntk   0/1     ImagePullBackOff    0          63m
+project-2-79567fc9bb-wd56p            0/1     ImagePullBackOff    0          63m
+project-3-7cf857b64-6dqzz             0/1     ImagePullBackOff    0          62m
+project-4-6d99755ccc-g5k8r            1/1     Running             0          16m
+project-d764b8986-lxp6s               0/1     ImagePullBackOff    0          62m
+project-f-679c6c9959-vrrx4            1/1     Running             0          2m35s
+project-final-5f9c9c5f77-k8czx        1/1     Running             0          5m20s
+project-finale-54d5c449b4-55nnl       1/1     Running             0          4m44s
+project-finalee-596c865fcf-hmf54      1/1     Running             0          3m55s
+projectudacity-56fdf99d89-74tf8       0/1     ContainerCreating   0          1s
+error: unable to forward port because pod is not running. Current status=Pending
+
+//////// After the status being running
+
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
